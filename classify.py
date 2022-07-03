@@ -2,7 +2,6 @@
 # python classify.py --images dataset/images --masks dataset/masks
 
 # import the necessary packages
-from __future__ import print_function
 from RGBgram.rgbhistogram import RGBHistogram
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
